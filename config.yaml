@@ -1,0 +1,6 @@
+dataset_dir: dataset
+output_file: output.csv
+checkpoint_file: dataset/.checkpoint.jsonl
+model: gemini-2.5-flash
+media_cache_dir: dataset/processed_media
+confidence_threshold: 0.80

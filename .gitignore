@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & IDE
+.pytest_cache/
+.coverage
+htmlcov/
+.vscode/
+.idea/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Explicitly keep processed media cache for clean clone submission
+!dataset/processed_media/
+!dataset/processed_media/*.json
